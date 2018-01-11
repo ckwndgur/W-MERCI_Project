@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="individual_edit_assessment_clientstatusid_field"
+        android:title="@string/clientstatusid"
+        android:summary="%s"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></ListPreference>
+
+    <MultiSelectListPreference
+        android:key="individual_edit_assessment_residencytype_field"
+        android:title="@string/residencytype"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></MultiSelectListPreference>
+
+</PreferenceScreen>

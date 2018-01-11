@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_height="40dip"
+            android:layout_width="match_parent"
+            android:id="@+id/select_incident"
+            android:background="@color/colorGrey"
+            android:gravity="center"
+            android:clickable="true"
+            style="@style/TransparentButtonTheme"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_incident_selected"
+                android:textAlignment="center"
+                android:id="@+id/selected_incident_label"/>
+            <nsllab.merci_android_updated.IconView
+                android:id="@+id/settingsIcon"
+                style="@style/TextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorTextBlack"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/assessment_list_fragment"
+            android:layout_below="@+id/select_incident"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab"
+        app:backgroundTint="@color/colorAccent"
+        app:borderWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dip"
+        android:src="@drawable/add_assessment_btn" />
+
+</android.support.design.widget.CoordinatorLayout>

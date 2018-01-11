@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+    <nsllab.merci_android_updated.IconView
+        android:id="@+id/assessment_brief_type_icon"
+        style="@style/AssessmentBriefTypeIconTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/has_content_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+
+        <nsllab.merci_android_updated.IconView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assessment_brief_has_text"
+            android:text=""
+            style="@style/AssessmentBriefContentIconTheme" />
+
+        <nsllab.merci_android_updated.IconView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assessment_brief_has_photo"
+            android:text=""
+            style="@style/AssessmentBriefContentIconTheme" />
+
+        <nsllab.merci_android_updated.IconView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assessment_brief_has_video"
+            android:text=""
+            style="@style/AssessmentBriefContentIconTheme" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/assessment_brief_type_icon">
+        <TextView
+            android:id="@+id/assessment_brief_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:id="@+id/assessment_brief_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14dp"
+            android:layout_below="@id/assessment_brief_name" />
+
+        <TextView
+            android:id="@+id/assessment_brief_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14dp"
+            android:layout_below="@id/assessment_brief_timestamp" />
+    </RelativeLayout>
+</RelativeLayout>

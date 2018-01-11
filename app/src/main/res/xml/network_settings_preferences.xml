@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/server_ip_field"
+        android:title="@string/server_ip"
+        android:defaultValue="@string/server_ip_field_default_value"></EditTextPreference>
+    <EditTextPreference
+        android:key="@string/ip_port_field"
+        android:title="@string/ip_port"
+        android:defaultValue="@string/ip_port_field_default_value"></EditTextPreference>
+    <EditTextPreference
+        android:key="@string/virtual_directory_field"
+        android:title="@string/virtual_directory"
+        android:defaultValue="@string/virtual_directory_field_default_value"></EditTextPreference>
+    <EditTextPreference
+        android:numeric="integer"
+        android:key="@string/timeout_secs_field"
+        android:title="@string/timeout_secs"
+        android:defaultValue="@string/timeout_secs_field_default_value"></EditTextPreference>
+</PreferenceScreen>

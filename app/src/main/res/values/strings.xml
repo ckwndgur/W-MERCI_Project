@@ -1,0 +1,211 @@
+<resources>
+    <!-- activity labels -->
+    <string name="app_name">MERCI</string>
+    <string name="network_settings_label">Network Settings</string>
+    <string name="home_label">Home</string>
+    <string name="map_label">Map</string>
+    <string name="about_merci_label">About MERCI</string>
+    <string name="sign_out_label">Sign Out</string>
+    <string name="details_label">Details</string>
+    <string name="reset_cache_label">Reset Cache</string>
+
+
+    <!-- texts -->
+    <string name="select_lang_to_continue">Select Language to Continue</string>
+    <string name="english">English</string>
+    <string name="korean">Korean | 한국어</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="network_settings">Network Settings</string>
+    <string name="signing_in">signing in...</string>
+    <string name="connecting">Connecting...</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="server_ip">Server IP</string>
+    <string name="ip_port">IP Port</string>
+    <string name="virtual_directory">Virtual Directory</string>
+    <string name="timeout_secs">Timeout (secs)</string>
+    <string name="sync_assessments">Sync Assessments</string>
+    <string name="sync_all">Sync All</string>
+    <string name="individual_assessment">Individual Assessment</string>
+    <string name="business_assessment">Business Assessment</string>
+    <string name="infrastructure_assessment">Infrastructure Assessment</string>
+    <string name="no_incident_selected">No incident selected</string>
+    <string name="loading_incidents">Loading Incidents...</string>
+    <string name="about_merci_text">
+        MERCI (Mobile Emergency Response and Command Interface) is a tool designed to facilitate rapid damage assessment following an event (natural disaster, manmade disaster, etc).
+    </string>
+    <string name="developer">
+        This app has been developed by:\n\n
+        Ali Moallim\n
+        Ph.D. Researching Candidate\n
+        Networked Sensors Lab\n
+        Kumoh Institute of Technology
+        amoallim15@gmail.com\n
+        +(82) 10 4597-0031
+    </string>
+    <string name="not_synced_yet">Not synced yet</string>
+    <string name="empty">Empty</string>
+    <string name="associate_media">Associate Media</string>
+    <string name="add_photo">Photo</string>
+    <string name="add_video">Video</string>
+    <string name="syncing_assessments">Syncing assessments..</string>
+    <string name="retrieving_assessments">Retrieving assessments..</string>
+    <string name="last_sync_at">Last Sync at</string>
+    <string name="capture_from_camera">Capture Photo</string>
+    <string name="select_from_gallery">Open Gallery</string>
+
+
+    <!-- Toasts -->
+    <string name="not_supported_by_the_server">Not supported by the server</string>
+    <string name="not_supported_yet">Not supported yet</string>
+    <string name="network_connection_error">Network connection error</string>
+    <string name="username_does_not_exist">Username does not exist</string>
+    <string name="check_network_settings">Check network settings</string>
+    <string name="internal_error">internal error, please reload the app</string>
+    <string name="json_parsing_error">JSON parsing error, please try again</string>
+    <string name="cannot_connect_to_google_api">Can not connect to Google API, please try again</string>
+    <string name="map_loading_error">Map loading error, please try again</string>
+    <string name="location_permission_error">Location permission error, please provide access and try again</string>
+    <string name="could_not_select_incident">Could not select incident, please try again</string>
+    <string name="assessment_has_been_cached">Assessment has been cached successfully</string>
+    <string name="loading_incidents_failed">Loading incidents failed, please try again</string>
+    <string name="syncing_assessment_failed">Syncing assessment failed, please try again</string>
+    <string name="syncing_assessments_succeeded">Syncing assessments succeeded</string>
+    <string name="retrieving_assessments_failed">Retrieving assessments failed, please try to sync again</string>
+    <string name="could_not_refresh_assessments_list">Could not refresh assessments list, please reselect incident again</string>
+    <string name="could_not_generate_media_metadata">Could not generate media metadata, please try again</string>
+
+    <string name="client">Client</string>
+    <string name="affectedaddress">Affected Address</string>
+    <string name="clientstatusid">Client Status</string>
+    <string name="residencytype">Residency Type</string>
+    <string name="temporaryaddress">Temporary Address</string>
+    <string name="owner">Owner</string>
+    <string name="insurancetypeids">Insurance Type</string>
+    <string name="insurancedescription">Insurance Description</string>
+    <string name="islandid">Island</string>
+    <string name="waterheightininches">Water Level (inches)</string>
+    <string name="ishabitable">Habitable</string>
+    <string name="damagelocation">Damage Location</string>
+    <string name="damageseverity">Damage Severity</string>
+    <string name="damagedescription">Damage Description</string>
+    <string name="damagecosthome">Home</string>
+    <string name="damagecostappliances">Appliances</string>
+    <string name="damagecostelectronics">Electronics</string>
+    <string name="damagecostautoboat">Auto/Boat</string>
+    <string name="damagecostfurniture">Furniture</string>
+    <string name="damagecoststructure">Structure</string>
+    <string name="damagecostbedding">Bedding</string>
+    <string name="damagecostmisc">Miscellaneous</string>
+    <string name="followuptypeids">Follow Up Type</string>
+    <string name="followupdescription">Follow Up Description</string>
+    <string name="comments">Comments</string>
+    <string name="affectedperson__firstname">First Name</string>
+    <string name="affectedperson__lastname">Last Name</string>
+    <string name="affectedperson__homephonenumber">Home Phone</string>
+    <string name="affectedperson__workphonenumber">Work Number</string>
+    <string name="affectedperson__cellphonenumber">Cell Number</string>
+    <string name="affectedperson__email">Email</string>
+    <string name="owner__firstname">First Name</string>
+    <string name="owner__lastname">Last Name</string>
+    <string name="owner__homephonenumber">Home Phone</string>
+    <string name="owner__workphonenumber">Work Number</string>
+    <string name="owner__cellphonenumber">Cell Number</string>
+    <string name="owner__email">Email</string>
+    <string name="affectedaddress__street">Street</string>
+    <string name="affectedaddress__city">City</string>
+    <string name="affectedaddress__state">State</string>
+    <string name="affectedaddress__zip">Zip</string>
+    <string name="temporaryaddress__street">Street</string>
+    <string name="temporaryaddress__city">City</string>
+    <string name="temporaryaddress__state">State</string>
+    <string name="temporaryaddress__zip">Zip</string>
+    <string name="applicationId">nsllab.merci_android</string>
+
+    <!-- fields -->
+    <string name="username_field">username_field</string>
+
+    <string name="server_ip_field">server_ip_field</string>
+    <string name="ip_port_field">ip_port_field</string>
+    <string name="virtual_directory_field">virtual_directory_field</string>
+    <string name="timeout_secs_field">timeout_secs_field</string>
+
+    <string name="incidents_field">incidents_field</string>
+    <string name="inspectors_field">inspectors_field</string>
+    <string name="islands_field">islands_field</string>
+    <string name="states_field">states_field</string>
+    <string name="agency_type_field">agency_type_field</string>
+    <string name="client_status_field">client_status_field</string>
+    <string name="damage_location_field">damage_location_field</string>
+    <string name="damage_severity_field">damage_severity_field</string>
+    <string name="federal_jurisdiction_field">federal_jurisdiction_field</string>
+    <string name="incident_type_field">incident_type_field</string>
+    <string name="insurance_type_field">insurance_type_field</string>
+    <string name="notification_department_field">notification_department_field</string>
+    <string name="followup_type_field">followup_type_field</string>
+    <string name="residency_type_field">residency_type_field</string>
+
+    <string name="current_inspector_field">current_inspector_field</string>
+    <string name="current_incident_field">current_incident_field</string>
+    <string name="current_assessments_list_field">current_assessments_list_field</string>
+    <string name="current_last_sync_timestamp_field">current_last_sync_timestamp_field</string>
+
+    <string name="individual_edit_assessment_affectedperson__firstname_field">individual_edit_assessment_affectedperson__firstname_field</string>
+    <string name="individual_edit_assessment_affectedperson__lastname_field">individual_edit_assessment_affectedperson__lastname_field</string>
+    <string name="individual_edit_assessment_affectedperson__homephonenumber_field">individual_edit_assessment_affectedperson__homephonenumber_field</string>
+    <string name="individual_edit_assessment_affectedperson__cellphonenumber_field">individual_edit_assessment_affectedperson__cellphonenumber_field</string>
+    <string name="individual_edit_assessment_affectedperson__workphonenumber_field">individual_edit_assessment_affectedperson__workphonenumber_field</string>
+    <string name="individual_edit_assessment_affectedperson__email_field">individual_edit_assessment_affectedperson__email_field</string>
+    <string name="individual_edit_assessment_affectedaddress__street_field">individual_edit_assessment_affectedaddress__street_field</string>
+    <string name="individual_edit_assessment_affectedaddress__city_field">individual_edit_assessment_affectedaddress__city_field</string>
+    <string name="individual_edit_assessment_affectedaddress__stateid_field">individual_edit_assessment_affectedaddress__stateid_field</string>
+    <string name="individual_edit_assessment_affectedaddress__state_field">individual_edit_assessment_affectedaddress__state_field</string>
+    <string name="individual_edit_assessment_affectedaddress__zip_field">individual_edit_assessment_affectedaddress__zip_field</string>
+    <string name="individual_edit_assessment_clientstatusid_field">individual_edit_assessment_clientstatusid_field</string>
+    <string name="individual_edit_assessment_residencytype_field">individual_edit_assessment_residencytype_field</string>
+    <string name="individual_edit_assessment_temporaryaddress__street_field">individual_edit_assessment_temporaryaddress__street_field</string>
+    <string name="individual_edit_assessment_temporaryaddress__city_field">individual_edit_assessment_temporaryaddress__city_field</string>
+    <string name="individual_edit_assessment_temporaryaddress__stateid_field">individual_edit_assessment_temporaryaddress__stateid_field</string>
+    <string name="individual_edit_assessment_temporaryaddress__state_field">individual_edit_assessment_temporaryaddress__state_field</string>
+    <string name="individual_edit_assessment_temporaryaddress__zip_field">individual_edit_assessment_temporaryaddress__zip_field</string>
+    <string name="individual_edit_assessment_owner__firstname_field">individual_edit_assessment_owner__firstname_field</string>
+    <string name="individual_edit_assessment_owner__lastname_field">individual_edit_assessment_owner__lastname_field</string>
+    <string name="individual_edit_assessment_owner__homephonenumber_field">individual_edit_assessment_owner__homephonenumber_field</string>
+    <string name="individual_edit_assessment_owner__cellphonenumber_field">individual_edit_assessment_owner__cellphonenumber_field</string>
+    <string name="individual_edit_assessment_owner__workphonenumber_field">individual_edit_assessment_owner__workphonenumber_field</string>
+    <string name="individual_edit_assessment_owner__email_field">individual_edit_assessment_owner__email_field</string>
+    <string name="individual_edit_assessment_insurancetypeids_field">individual_edit_assessment_insurancetypeids_field</string>
+    <string name="individual_edit_assessment_insurancedescription_field">individual_edit_assessment_insurancedescription_field</string>
+    <string name="individual_edit_assessment_islandid_field">individual_edit_assessment_islandid_field</string>
+    <string name="individual_edit_assessment_waterheightininches_field">individual_edit_assessment_waterheightininches_field</string>
+    <string name="individual_edit_assessment_ishabitable_field">individual_edit_assessment_ishabitable_field</string>
+    <string name="individual_edit_assessment_damagelocation_field">individual_edit_assessment_damagelocation_field</string>
+    <string name="individual_edit_assessment_damageseverity_field">individual_edit_assessment_damageseverity_field</string>
+    <string name="individual_edit_assessment_damagedescription_field">individual_edit_assessment_damagedescription_field</string>
+    <string name="individual_edit_assessment_damagecosthome_field">individual_edit_assessment_damagecosthome_field</string>
+    <string name="individual_edit_assessment_damagecostappliances_field">individual_edit_assessment_damagecostappliances_field</string>
+    <string name="individual_edit_assessment_damagecostelectronics_field">individual_edit_assessment_damagecostelectronics_field</string>
+    <string name="individual_edit_assessment_damagecostautoboat_field">individual_edit_assessment_damagecostautoboat_field</string>
+    <string name="individual_edit_assessment_damagecostfurniture_field">individual_edit_assessment_damagecostfurniture_field</string>
+    <string name="individual_edit_assessment_damagecoststructure_field">individual_edit_assessment_damagecoststructure_field</string>
+    <string name="individual_edit_assessment_damagecostbedding_field">individual_edit_assessment_damagecostbedding_field</string>
+    <string name="individual_edit_assessment_damagecostmisc_field">individual_edit_assessment_damagecostmisc_field</string>
+    <string name="individual_edit_assessment_followuptypeids_field">individual_edit_assessment_followuptypeids_field</string>
+    <string name="individual_edit_assessment_followupdescription_field">individual_edit_assessment_followupdescription_field</string>
+    <string name="individual_edit_assessment_comments_field">individual_edit_assessment_comments_field</string>
+    <string name="individual_edit_assessment_longitude_field">individual_edit_assessment_longitude_field</string>
+    <string name="individual_edit_assessment_latitude_field">individual_edit_assessment_latitude_field</string>
+    <string name="individual_edit_assessment_id_field">individual_edit_assessment_id_field</string>
+    <string name="individual_edit_assessment_timestamp_field">individual_edit_assessment_timestamp_field</string>
+
+
+    <!-- fields default values -->
+    <string name="server_ip_field_default_value">0.0.0.0</string>
+    <string name="ip_port_field_default_value">80</string>
+    <string name="virtual_directory_field_default_value">MERCI</string>
+    <string name="timeout_secs_field_default_value">30</string>
+
+    <!-- arrays -->
+    <string-array name="empty"></string-array>
+</resources>

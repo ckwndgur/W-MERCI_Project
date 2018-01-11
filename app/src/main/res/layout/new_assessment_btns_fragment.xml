@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dip">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonDialogTheme"
+        android:id="@+id/individual_assessment_btn"
+        android:text="@string/individual_assessment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonDialogTheme"
+        android:id="@+id/business_assessment_btn"
+        android:text="@string/business_assessment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonDialogTheme"
+        android:id="@+id/infrastructure_assessment_btn"
+        android:text="@string/infrastructure_assessment"/>
+</LinearLayout>

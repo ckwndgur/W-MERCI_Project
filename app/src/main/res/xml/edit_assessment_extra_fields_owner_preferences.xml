@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__firstname_field"
+        android:title="@string/owner__firstname" />
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__lastname_field"
+        android:title="@string/owner__lastname"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__homephonenumber_field"
+        android:title="@string/owner__homephonenumber"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__cellphonenumber_field"
+        android:title="@string/owner__cellphonenumber"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__workphonenumber_field"
+        android:title="@string/owner__workphonenumber"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_owner__email_field"
+        android:title="@string/owner__email"></EditTextPreference>
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            style="@style/ButtonListViewTheme"
+            android:id="@+id/client_btn" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/affectedaddress"
+            style="@style/ButtonListViewTheme"
+            android:id="@+id/affectedaddress_btn"
+            android:layout_below="@id/client_btn" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_assessment_client_status_and_residency_type_preferences_fragment"
+            android:layout_below="@id/affectedaddress_btn" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temporaryaddress"
+            style="@style/ButtonListViewTheme"
+            android:id="@+id/temporaryaddress_btn"
+            android:layout_below="@id/edit_assessment_client_status_and_residency_type_preferences_fragment"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner"
+            style="@style/ButtonListViewTheme"
+            android:id="@+id/owner_btn"
+            android:layout_below="@id/temporaryaddress_btn" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/owner_btn"
+            android:id="@+id/edit_assessment_the_rest_preferences_fragment" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/associate_media"
+            style="@style/ButtonDialogTheme"
+            android:id="@+id/associate_media_btn"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_below="@id/edit_assessment_the_rest_preferences_fragment" />
+
+    </RelativeLayout>
+</ScrollView>

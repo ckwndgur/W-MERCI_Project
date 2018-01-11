@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dip"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        style="@style/TextTheme"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dip"
+        android:layout_marginBottom="100dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:maxLines="1"
+            android:inputType="text"
+            style="@style/EditTextTheme"
+            android:layout_alignParentTop="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            style="@style/ButtonTheme"
+            android:id="@+id/loginBtn"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="15dip"/>
+
+
+        <RelativeLayout
+            android:id="@+id/networkSettingsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:clickable="true"
+            style="@style/TransparentButtonTheme"
+            android:layout_alignParentBottom="true">
+
+            <nsllab.merci_android_updated.IconView
+                android:id="@+id/settingsIcon"
+                style="@style/TextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                style="@style/TextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/network_settings"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/settingsIcon"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

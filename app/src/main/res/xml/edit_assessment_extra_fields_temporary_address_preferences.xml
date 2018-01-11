@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="individual_edit_assessment_temporaryaddress__street_field"
+        android:title="@string/temporaryaddress__street"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_temporaryaddress__city_field"
+        android:title="@string/temporaryaddress__city"></EditTextPreference>
+    <ListPreference
+        android:key="individual_edit_assessment_temporaryaddress__stateid_field"
+        android:title="@string/temporaryaddress__state"
+        android:summary="%s"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></ListPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_temporaryaddress__zip_field"
+        android:title="@string/temporaryaddress__zip"></EditTextPreference>
+</PreferenceScreen>

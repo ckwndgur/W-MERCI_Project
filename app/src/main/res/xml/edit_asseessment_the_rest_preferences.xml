@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <MultiSelectListPreference
+        android:key="individual_edit_assessment_insurancetypeids_field"
+        android:title="@string/insurancetypeids"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></MultiSelectListPreference>
+
+    <EditTextPreference
+        android:key="individual_edit_assessment_insurancedescription_field"
+        android:title="@string/insurancedescription"></EditTextPreference>
+
+    <ListPreference
+        android:key="individual_edit_assessment_islandid_field"
+        android:title="@string/islandid"
+        android:summary="%s"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></ListPreference>
+
+    <EditTextPreference
+        android:key="individual_edit_assessment_waterheightininches_field"
+        android:title="@string/waterheightininches"></EditTextPreference>
+
+    <CheckBoxPreference
+        android:key="individual_edit_assessment_ishabitable_field"
+        android:title="@string/ishabitable"></CheckBoxPreference>
+
+    <MultiSelectListPreference
+        android:key="individual_edit_assessment_damagelocation_field"
+        android:title="@string/damagelocation"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></MultiSelectListPreference>
+
+    <ListPreference
+        android:key="individual_edit_assessment_damageseverity_field"
+        android:title="@string/damageseverity"
+        android:summary="%s"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></ListPreference>
+
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagedescription_field"
+        android:title="@string/damagedescription"
+        android:lines="3"></EditTextPreference>
+
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecosthome_field"
+        android:title="@string/damagecosthome"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostappliances_field"
+        android:title="@string/damagecostappliances"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostelectronics_field"
+        android:title="@string/damagecostelectronics"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostautoboat_field"
+        android:title="@string/damagecostautoboat"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostfurniture_field"
+        android:title="@string/damagecostfurniture"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecoststructure_field"
+        android:title="@string/damagecoststructure"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostbedding_field"
+        android:title="@string/damagecostbedding"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_damagecostmisc_field"
+        android:title="@string/damagecostmisc"
+        android:inputType="number"
+        android:numeric="integer"></EditTextPreference>
+    <MultiSelectListPreference
+        android:key="individual_edit_assessment_followuptypeids_field"
+        android:title="@string/followuptypeids"
+        android:entries="@array/empty"
+        android:entryValues="@array/empty"></MultiSelectListPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_followupdescription_field"
+        android:title="@string/followupdescription"
+        android:lines="3"></EditTextPreference>
+    <EditTextPreference
+        android:key="individual_edit_assessment_comments_field"
+        android:title="@string/comments"
+        android:lines="3"></EditTextPreference>
+
+</PreferenceScreen>
